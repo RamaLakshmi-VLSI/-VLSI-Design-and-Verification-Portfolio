@@ -11,6 +11,7 @@ A naive memory array would return stale "old" data or cause meta-stable read val
 ```verilog
 assign r_data_a = (we && (r_addr_a == w_addr)) ? w_data : memory[r_addr_a];
 assign r_data_b = (we && (r_addr_b == w_addr)) ? w_data : memory[r_addr_b];
+```
 By checking if a read address matches the active write target address during a write transaction, the internal multiplexing path completely bypasses the memory array delay. It routes the incoming write data bus straight to the output ports, ensuring downstream execution pipelines receive the freshest data with zero clock-cycle penalties.
 
 ---
