@@ -7,11 +7,18 @@ This repository documents focused on RTL Design, Computer Architecture, and Func
 - **Tools:** Xilinx Vivado, GTKWave
 - **Methodologies:** RTL Design, UVM, Static Timing Analysis (STA)
 
-## 📂 Professional Modules
-1. [01_Combinational_RTL](./01_Combinational_RTL) - Logic & Arithmetic
-2. [02_Sequential_RTL](./02_Sequential_RTL) - Memory & Timing (CURRENT)
-3. [03_Verification_Fundamentals](./03_Verification_Fundamentals) - Vivado Flow
-4. [04_Processor_Architecture](./04_Processor_Architecture) - RISC-V Pipelining
-5. [05_SystemVerilog_UVM](./05_SystemVerilog_UVM) - Advanced Verification
-6. [06_Physical_Design_STA](./06_Physical_Design_STA) - Hardware Reality
+## 📁 Professional Modules
 
+### 🔹 Part 1: Digital Design Foundations (RTL)
+1. **01_Combinational_RTL** - Logic gates, adders, multiplexers, and arithmetic units.
+2. **02_Sequential_RTL** - Flip-flops, registers, counters, and Finite State Machines (FSMs).
+3. **03_Verification_Fundamentals** - Basic testbenches, Vivado simulation flow, and waveform analysis.
+4. **04_Parameterized_Design** - Scalable hardware architectures (FIFOs, parameterized registers).
+5. **05_Protocols** - Industry-standard communication interfaces (UART, SPI, I2C).
+6. **06_Processor_Architecture** - RISC-V (RV32I) single-cycle and pipelined core implementation.
+
+### 🔹 Part 2: Advanced Functional Verification (DV)
+7. **07_SystemVerilog_Verification** - Object-Oriented Programming (OOP), randomization, constraints, and functional coverage.
+8. **08_UVM_Architecture** - Universal Verification Methodology building blocks (Agents, Drivers, Monitors, Scoreboards).
+9. **09_Verification_Projects** - Complete, production-grade verification environments for your protocol IPs and RISC-V core.
+10. **10_Physical_Design_STA** - Synthesis baselines and Static Timing Analysis (STA) principles.
