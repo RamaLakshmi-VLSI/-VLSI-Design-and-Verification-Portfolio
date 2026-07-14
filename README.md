@@ -1,4 +1,4 @@
-# Full-Stack VLSI 🚀
+# ​VLSI-Design-and-Verification-Portfolio
 
 This repository documents focused on RTL Design, Computer Architecture, and Functional Verification.
 
