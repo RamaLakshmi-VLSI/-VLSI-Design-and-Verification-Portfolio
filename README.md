@@ -22,3 +22,4 @@ This repository documents focused on RTL Design, Computer Architecture, and Func
 8. **08_UVM_Architecture** - Universal Verification Methodology building blocks (Agents, Drivers, Monitors, Scoreboards).
 9. **09_Verification_Projects** - Complete, production-grade verification environments for your protocol IPs and RISC-V core.
 10. **10_Physical_Design_STA** - Synthesis baselines and Static Timing Analysis (STA) principles.
+11. **11_Custom_IC_Design** - Transistor-level design.
